@@ -161,3 +161,56 @@
 .veggi {
     height: 28rem;
 }
+
+.coupons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-sm {
+    border: 0.3px dashed black;
+}
+
+.btn-sm:hover{
+    background-color:#e9edf1 ;
+    border: 1.2px dashed black;
+}
+
+.happy-customer{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(fruits);
+    background-size: contain;
+    padding: 0.7rem 0 0.7rem 0;
+    /* opacity: 0.5; */
+}
+
+.customer-photo{
+    height: 15rem;
+    width: 15rem;
+    background-color: #e9edf1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    border-radius: 5.5px;
+}
+
+.customer-photo div{
+    width: 90%;
+    height: 99%;
+    background-color: white;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-photo img{
+   height: 15 rem;
+}
